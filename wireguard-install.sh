@@ -4,8 +4,6 @@
 #
 # Copyright (c) 2018 Viktor Villainov. Released under the MIT License.
 
-WG_CONFIG="/etc/wireguard/wg0.conf"
-
 function get_free_udp_port
 {
     local port=$(shuf -i 2000-65000 -n 1)
